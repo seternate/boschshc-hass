@@ -2,12 +2,12 @@
   "domain": "bosch_shc",
   "name": "Bosch SHC",
   "after_dependencies": ["zeroconf"],
-  "codeowners": ["@tschamm"],
+  "codeowners": ["@seternate"],
   "config_flow": true,
-  "documentation": "https://github.com/tschamm/boschshc-hass/blob/master/README.md",
+  "documentation": "https://github.com/seternate/boschshc-hass/blob/master/README.md",
   "iot_class": "local_push",
   "issue_tracker": "https://github.com/tschamm/boschshc-hass/issues",
-  "requirements": ["boschshcpy==0.2.88"],
-  "version": "0.4.79",
+  "requirements": ["git+https://github.com/seternate/boschshcpy@42b6f31a1f5587b19cce2d7e68b7a32532c4bb54#boschshcpy==0.2.90"],
+  "version": "0.4.81",
   "zeroconf": [{ "type": "_http._tcp.local.", "name": "bosch shc*" }]
 }
